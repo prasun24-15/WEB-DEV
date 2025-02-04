@@ -3,27 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise3</title>
+    <title>CSS Card</title>
     <style>
-        body> div:first-child{
-            padding: 4%;
-            border:2px solid rgb(245, 235, 218);
-            border-radius: 30px;
-            height: 500px;
+        body{
+            padding: 30px;
+            background-color: grey;
+            display: flex;
         }
-        img{
-            padding: 2px;
-            border-radius: 20px;
+        .card{
+            margin-right: 20px;
+            background-color: white;
+            width: 280px;
+            height: 400px;
+            border-radius: 7px;
         }
+        .image img{
+            padding: 5px;
+            border-radius: 14px;
 
+        }
+        .content{
+            color: gray;
+            font-size: 15px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding:0px 0px 0px 4px;
+
+        }
+        .content h1{
+            color: black;
+        }
+        .capsule{
+            padding:11px 19px 0px 9px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .capsule span{
+            border: 2px solid grey;
+            padding: 5px;
+            margin-right: 8px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        .button1{
+            text-align: center;
+        }
+        .button1 button{
+            border: none;
+            padding: 5px 13px;
+            border-radius: 18px;
+            background-color: rgb(158, 217, 244);
+            color: rgb(10, 10, 166);
+        }
     </style>
 </head>
 <body>
-    <div>
-        <img src="https://media.istockphoto.com/id/1381637603/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=w64j3fW8C96CfYo3kbi386rs_sHH_6BGe8lAAAFS-y4=" height="300" width="350">
+    <div class="card">
+        <div class="image">
+            <img width="270px" height="130px" src="https://cdn.pixabay.com/photo/2020/08/11/03/08/boat-5479122_1280.jpg">
+            </div>
+        <div class="capsule">
+            <span> Nature </span>
+            <span> Lake </span>
+        </div>
+        <div class="content">
+            <h1>
+                Prasun
+            </h1>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus consectetur quidem natus nam dolor necessitatibus illum rerum numquam voluptate sit velit saepe, voluptatem dignissimos.</p>
+        </div>
+        <div class="button1">
+            <button> Read More</button>
+        </div>
     </div>
-    <span> nature</span>
-    <span> lake</span>
+    <div class="card">
+        <div class="image">
+            <img width="270px" height="130px" src="https://cdn.pixabay.com/photo/2020/08/11/03/08/boat-5479122_1280.jpg">
+            </div>
+        <div class="capsule">
+            <span> Nature </span>
+            <span> Lake </span>
+        </div>
+        <div class="content">
+            <h1>
+                Prasun
+            </h1>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus consectetur quidem natus nam dolor necessitatibus illum rerum numquam voluptate sit velit saepe, voluptatem dignissimos.</p>
+        </div>
+        <div class="button1">
+            <button> Read More</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <img width="270px" height="130px" src="https://cdn.pixabay.com/photo/2020/08/11/03/08/boat-5479122_1280.jpg">
+            </div>
+        <div class="capsule">
+            <span> Nature </span>
+            <span> Lake </span>
+        </div>
+        <div class="content">
+            <h1>
+                Prasun
+            </h1>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus consectetur quidem natus nam dolor necessitatibus illum rerum numquam voluptate sit velit saepe, voluptatem dignissimos.</p>
+        </div>
+        <div class="button1">
+            <button> Read More</button>
+        </div>
+    </div>
     
 </body>
 </html>
